@@ -18,11 +18,13 @@ public class TipCalculator {
     }
 
     public double tipAmount() {
-        return totalBill * tipPercentage;
+        tipAmount = totalBill * tipPercentage;
+        return tipAmount;
     }
 
     public double totalBillWithTip() {
-        return tipAmount + totalBill;
+        totalBillWithTip = tipAmount + totalBill;
+        return totalBillWithTip;
     }
 
     public double tipPerPerson() {
