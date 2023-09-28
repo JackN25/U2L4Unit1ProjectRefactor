@@ -30,9 +30,9 @@ public class TipCalculatorRunner {
 
 
         //Outputs with calculations
-        System.out.println("The amount you need to tip for the meal is " + df.format(calculator.tipAmount()));
-        System.out.println("The total cost of the bill is " + df.format(calculator.totalBillWithTip()));
-        System.out.println("The amount of tip per person is " + df.format(calculator.tipPerPerson()));
-        System.out.println("The total amount per person is " + df.format(calculator.totalPerPerson()));
+        System.out.println("The amount you need to tip for the meal is $" + df.format(calculator.tipAmount()));
+        System.out.println("The total cost of the bill is $" + df.format(calculator.totalBillWithTip()));
+        System.out.println("The amount of tip per person is $" + df.format(calculator.tipPerPerson()));
+        System.out.println("The total amount per person is $" + df.format(calculator.totalPerPerson()));
     }
 }
