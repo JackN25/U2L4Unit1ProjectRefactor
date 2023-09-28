@@ -1,16 +1,12 @@
-import java.util.Scanner;
 public class TipCalculator {
 
     //variables
-    private double totalBill;
-    private double tipPercentage;
-    private int numPeople;
+    final private double totalBill;
+    final private double tipPercentage;
+    final private int numPeople;
     private double tipAmount;
     private double totalBillWithTip;
-    private double tipPerPerson;
-    private double totalPerPerson;
 
-    Scanner s = new Scanner(System.in);
     public TipCalculator(double totalBill, double tipPercentage, int numPeople) {
         this.totalBill = totalBill;
         this.tipPercentage = tipPercentage;
